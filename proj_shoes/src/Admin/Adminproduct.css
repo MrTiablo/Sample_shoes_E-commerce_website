@@ -1,0 +1,9 @@
+/* Adminproduct.css */
+
+.product-image {
+    width: 100px; /* Adjust the desired width */
+    height: 100px; /* Adjust the desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    
+  }
+  

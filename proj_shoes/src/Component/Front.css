@@ -1,0 +1,45 @@
+/* Front.css */
+
+.front-container {
+    background-image: url('wallpaper1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff; /* Text color for light backgrounds */
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-button {
+    font-size: 1.25rem;
+    border-color: #fff; /* Button border color */
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #fff; /* Button background color on hover */
+    color: #333; /* Button text color on hover */
+  }
+  

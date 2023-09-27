@@ -1,0 +1,41 @@
+/* Cart.css */
+
+/* Style the container */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* Style the card */
+  .card {
+    cursor: pointer;
+    max-width: 18rem;
+  }
+  
+  /* Style the card image */
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the card body */
+  .card-body {
+    padding: 1rem;
+  }
+  
+  /* Style the card title */
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  /* Style the card text */
+  .card-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Style the add to cart button */
+  .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  

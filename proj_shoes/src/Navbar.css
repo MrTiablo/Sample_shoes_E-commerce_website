@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+.brand {
+    font-weight: 500;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333; /* Brand/logo text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .cont_bg {
+    background-color: rgb(245, 244, 244);
+  }
+  
+  .loci {
+    display: flex;
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* Style the icons */
+  .loci a {
+    color: #333; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Add space between links */
+    display: flex; /* Make the link a flex container */
+    align-items: center; /* Vertically center icon and text */
+  }
+  
+  /* Add hover effect to links */
+  .loci a:hover {
+    color: #3498db; /* Hover color */
+    transition: color 0.2s ease-in-out; /* Smooth transition */
+  }

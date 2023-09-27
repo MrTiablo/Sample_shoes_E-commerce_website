@@ -1,0 +1,95 @@
+/* sidebar.css */
+
+/* Base styles for the sidebar */
+.sidebar {
+  background-color: #1a1a1a;
+  color: white;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: width 0.3s ease-in-out;
+  overflow-y: auto; /* Add scrollbar for content overflow */
+}
+
+/* Header styles */
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Sidebar links styles */
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Add spacing between links */
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 12px 20px; /* Increase padding for better touch target */
+  border-radius: 30px; /* Rounded corners for links */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Icon styles */
+.sidebar-link i {
+  margin-right: 15px; /* Slightly increase the space between icon and text */
+  font-size: 20px; /* Slightly increase icon size */
+}
+
+/* Hover effect */
+.sidebar-link:hover {
+  background-color: #4a90e2; /* Change this color to your preferred hover color */
+  color: white; /* Change text color on hover if needed */
+}
+
+/* Active link style (if needed) */
+.sidebar-link.active {
+  background-color: #4a90e2;
+  color: white;
+}
+
+/* Add more styles as needed for different sections or elements within the sidebar */
+
+/* sidebar.css */
+
+/* ... (Previous styles) */
+
+/* Styling for individual sidebar links */
+.sidebar1 {
+  background-color: #1a1a1a; /* Background color for links */
+  color: white; /* Text color for links */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 30px; /* Rounded corners for links */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover effect for individual sidebar links */
+.sidebar1:hover {
+  background-color: #4a90e2; /* Change this color to your preferred hover color */
+  color: white; /* Change text color on hover if needed */
+}
+
+/* Active link style for individual sidebar links (if needed) */
+.sidebar1.active {
+  background-color: #4a90e2;
+  color: white;
+}
+
